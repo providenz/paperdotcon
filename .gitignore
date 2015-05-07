@@ -1,0 +1,7 @@
+.idea/
+.idea/*
+public/
+public/*
+node_modules/
+node_modules/*
+synchronisator.sh

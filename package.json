@@ -1,0 +1,21 @@
+{
+  "name": "your-app",
+  "description": "Description",
+  "author": "Your Name",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "brunch watch --server",
+    "test": "brunch test"
+  },
+  "devDependencies": {
+    "sass-brunch": "^1.8.10"
+  },
+  "dependencies": {
+    "browser-sync-brunch": "0.0.9",
+    "clean-css-brunch": "^1.7.2"
+  }
+}

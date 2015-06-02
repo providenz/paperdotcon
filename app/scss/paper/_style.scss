@@ -175,7 +175,18 @@ p, h2, h3, h4 {
   font-weight: bold;
 
 }
-
+.sponsors__button {
+  text-decoration: none;
+  border: 1px solid #2a2a2a;
+  padding: 6px 24px;
+  border-radius: 3px;
+  font-size: 24px;
+  color: #2a2a2a;
+  &:hover {
+    background-color: #2a2a2a;
+    color: white;
+  }
+}
 .speakers {
   background: #2a2a2a url('img/dot.png');
   padding: 96px 0;

@@ -145,7 +145,7 @@ p, h2, h3, h4 {
   color: $paper-red
 }
 
-.about {
+.about, .schedule {
   background-color: #fff;
   padding: 48px;
 }
@@ -175,6 +175,7 @@ p, h2, h3, h4 {
   font-weight: bold;
 
 }
+
 .sponsors__button {
   text-decoration: none;
   border: 1px solid #2a2a2a;
@@ -187,6 +188,7 @@ p, h2, h3, h4 {
     color: white;
   }
 }
+
 .speakers {
   background: #2a2a2a url('img/dot.png');
   padding: 96px 0;
@@ -286,9 +288,11 @@ p, h2, h3, h4 {
   font-family: $slab-family;
   font-size: 48px;
 }
-.sponsors-bottom__text{
+
+.sponsors-bottom__text {
   font-size: 24px;
 }
+
 .footer {
   background: #2a2a2a url('img/dot.png');
   padding: 48px 0;
@@ -308,4 +312,15 @@ p, h2, h3, h4 {
 .footer__social {
   font-size: 48px;
   color: $paper-red;
+}
+
+.schedule__talk-title {
+  font-family: $slab-family;
+  color: $paper-red;
+  font-size: 36px;
+}
+
+.schedule__info{
+  margin-bottom: 0;
+  margin-top: 24px;
 }
